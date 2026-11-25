@@ -1,5 +1,5 @@
 # Skills Bridge
-
+https://id-preview--ef81ca09-9435-4e70-be16-c8cfdd3246f5.lovable.app/?__lovable_receipt=mat_237n2q4rta99tvte7g8rmyv18d
 Credential Recognition & Skills Validation (SDGs 4 & 8): Creating practical ways to verify foreign qualifications, assess real-world competencies, and fund targeted bridging or re-certification steps when paper records are missing or unrecognized.
 
 This project was built with [Lovable](https://lovable.dev).
