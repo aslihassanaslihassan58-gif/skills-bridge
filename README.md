@@ -1,122 +1,230 @@
-# Credential Recognition & Skills Validation System
 
-live link = https://lovable.dev/preview/Nv5fv59MPnVJfNJ582YmOGWpW4ixpx2j
+# VeriPath – Credential Recognition & Skills Validation Platform
+ live link  =  https://id-preview--ef81ca09-9435-4e70-be16-c8cfdd3246f5.lovable.app/?__lovable_receipt=mat_237n2q4rta99tvte7g8rmyv18d
+**Verify. Assess. Funding.**
+
+*Your skills are real. Even when papers aren't.*
+
+**SDGs 4 & 8 – Quality Education and Decent Work & Economic Growth**
+
+---
 
 ## 1. Project Overview
 
-The Credential Recognition & Skills Validation System is a digital platform designed to help individuals verify their educational qualifications, demonstrate their practical skills, and access opportunities for employment and further education.
+VeriPath is a digital platform designed to help individuals verify foreign qualifications, demonstrate their practical competencies, and access financial support for targeted bridging courses or re-certification.
 
-The system addresses challenges faced by people whose foreign qualifications are not recognized, whose academic documents are missing, or who have practical skills but lack formal certificates.
+The platform addresses challenges faced by skilled individuals whose academic documents are missing, lost, inaccessible, or not recognized in another country.
 
-It provides a practical approach to assessing competencies, verifying credentials, and connecting qualified individuals with bridging training and re-certification opportunities.
+Instead of requiring individuals to repeat an entire education or training program, VeriPath provides alternative qualification verification pathways, practical skills assessments, and targeted funding opportunities.
 
 ## 2. Problem Statement
 
-Many people face difficulties accessing employment and education because:
+Many skilled individuals experience difficulties accessing employment and further education because:
 
-- Foreign academic qualifications are not easily recognized.
-- Some individuals have lost their academic certificates.
-- Skilled workers lack formal documentation to prove their abilities.
-- Employers struggle to verify applicants' qualifications and skills.
-- Individuals cannot afford bridging courses or re-certification.
+- Foreign academic qualifications are not recognized.
+- Educational documents may be lost, damaged, or inaccessible.
+- Skilled workers lack formal certificates to prove their abilities.
+- Employers struggle to verify foreign qualifications.
+- Repeating entire courses is expensive and time-consuming.
+- People cannot afford the specific bridging examinations required to work in their professions.
 
-These challenges prevent capable people from accessing education, employment, and economic opportunities.
+VeriPath aims to reduce these barriers by providing an alternative approach to qualification recognition and skills validation.
 
 ## 3. Project Objectives
 
-The main objectives are:
+1. Provide alternative pathways for verifying foreign qualifications.
+2. Assess real-world competencies through practical assessments.
+3. Identify gaps between existing skills and local professional requirements.
+4. Connect individuals with targeted bridging and re-certification programs.
+5. Provide financial support for eligible bridging requirements.
+6. Improve access to employment and further education.
+7. Help employers identify candidates with verified qualifications and competencies.
 
-1. To provide a platform for verifying academic qualifications.
-2. To assess practical skills through competency-based assessments.
-3. To support individuals who have missing or unrecognized certificates.
-4. To connect individuals with affordable bridging and re-certification programs.
-5. To help employers identify qualified and skilled candidates.
-6. To promote equal access to education and decent employment.
+## 4. Main System Modules
 
-## 4. Target Users
+### Step 01: Qualification Recognition and Verification
 
-- Students and graduates.
-- Skilled workers.
+This module allows users to submit their educational and professional qualifications.
+
+**Features:**
+- Submit foreign qualifications.
+- Enter qualification title, institution, country, and year awarded.
+- Indicate whether original documents are available.
+- Assign alternative verification pathways.
+- Support employer or professional peer attestations.
+- Perform institutional registry checks.
+- Track qualification verification status.
+
+**Verification statuses:**
+- Pending Verification
+- Alternative Path Active
+- Bridging Evidence Needed
+- Verified
+- Rejected
+
+### Step 02: Real-World Competency Assessment
+
+This module evaluates practical skills rather than relying entirely on academic certificates.
+
+**Available competency tracks:**
+- Electrical & Power Trades
+- Nursing & Clinical Care
+- Civil & Structural Engineering
+- Software & IT Systems
+
+**Features:**
+- Select a professional competency track.
+- Record years of practical experience.
+- Complete professional scenario-based questions.
+- Calculate competency assessment scores.
+- Generate competency reports.
+- Identify professional and local regulatory gaps.
+- Recommend additional training where necessary.
+
+### Step 03: Bridging and Re-certification Funding
+
+This module provides financial assistance for individuals who need specific training, examinations, or professional certification.
+
+**Available programs:**
+
+| Professional Track | Training Program | Maximum Grant |
+|---|---|---:|
+| Electrical | Electrical Code & LOTO Exam Prep | $550 |
+| Nursing | Clinical Pharmacology & Registration Bridge | $800 |
+| Civil Engineering | Structural & Seismic Code Certification | $650 |
+| Software & IT | Cloud Security & Audit Credential | $420 |
+
+**Features:**
+- Browse available bridging programs.
+- View course fees and grant limits.
+- Submit funding applications.
+- Explain why financial assistance is required.
+- Track grant application status.
+- Approve or reject funding requests.
+
+## 5. System Dashboard
+
+The VeriPath dashboard displays important project statistics:
+
+- Total qualifications submitted.
+- Number of verified qualifications.
+- Number of competency assessments completed.
+- Available competency tracks.
+- Total bridging grants requested.
+- Approved and pending funding applications.
+
+## 6. Target Users
+
 - Refugees and displaced individuals.
-- People with foreign qualifications.
+- Migrant professionals.
+- Foreign-trained graduates.
+- Skilled workers without formal certificates.
+- Individuals with lost academic documents.
 - Employers and recruitment agencies.
-- Educational and training institutions.
-- Government accreditation authorities.
+- Educational and professional institutions.
+- Verification and accreditation authorities.
 
-## 5. Main System Features
+## 7. Technology Stack
 
-### A. User Registration
-Users create accounts and submit their personal and educational information.
+The proposed technologies for developing VeriPath include:
 
-### B. Credential Verification
-Users upload available certificates and academic documents for verification by authorized institutions.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Webpage structure |
+| CSS3 | Website styling |
+| JavaScript | Interactive functionality |
+| Bootstrap | Responsive user interface |
+| Python Flask | Backend development |
+| MySQL | Database management |
+| XAMPP / phpMyAdmin | Local database environment |
+| Chart.js | Dashboard statistics and charts |
 
-### C. Skills Assessment
-Users demonstrate their practical abilities through online tests, practical assessments, and competency evaluations.
+## 8. Database Design
 
-### D. Skills Recognition
-The system generates a skills assessment report showing verified competencies and areas requiring improvement.
+The system will use a relational MySQL database.
 
-### E. Bridging and Re-certification
-Users can identify suitable training programs to address gaps in their qualifications or skills.
+Proposed database tables:
 
-### F. Financial Support
-Eligible users can apply for financial assistance to cover bridging courses and re-certification costs.
+1. `users` – Stores user registration and account details.
+2. `qualifications` – Stores submitted academic and professional qualifications.
+3. `verification_requests` – Manages qualification verification applications.
+4. `attestations` – Stores employer and professional peer attestations.
+5. `competency_tracks` – Stores available professional assessment categories.
+6. `assessment_questions` – Stores practical assessment questions.
+7. `assessment_results` – Stores competency scores and results.
+8. `bridging_programs` – Stores available training and re-certification programs.
+9. `funding_requests` – Stores financial assistance applications.
+10. `notifications` – Stores system notifications and application updates.
 
-### G. Employer Portal
-Employers can search for candidates with verified qualifications and competencies.
+## 9. Expected Benefits
 
-### H. Administrator Dashboard
-Administrators manage users, verification requests, assessments, training programs, and financial support applications.
+- Improved recognition of foreign qualifications.
+- Recognition of practical skills and professional experience.
+- Reduced barriers caused by missing documents.
+- Lower costs through targeted bridging programs.
+- Better access to employment opportunities.
+- Increased trust between employers and job applicants.
+- Improved access to quality education and professional training.
 
-## 6. How the System Works
-
-1. A user registers on the platform.
-2. The user submits educational documents or explains why documents are unavailable.
-3. The system forwards the application to an authorized verification officer.
-4. The user completes a practical skills assessment where required.
-5. The assessment results identify the user's verified competencies and skill gaps.
-6. The system recommends relevant bridging or re-certification programs.
-7. Eligible users apply for financial support.
-8. Once approved, the user receives a skills recognition report.
-
-## 7. Sustainable Development Goals
+## 10. Sustainable Development Goals (SDGs)
 
 ### SDG 4 – Quality Education
-Promotes inclusive access to education, skills development, and lifelong learning.
+
+VeriPath supports inclusive and equitable quality education by promoting skills recognition, lifelong learning, and access to further training.
 
 ### SDG 8 – Decent Work and Economic Growth
-Promotes employment opportunities, recognizes practical competencies, and supports access to decent work.
 
-## 8. Expected Outcomes
+VeriPath promotes productive employment by helping skilled individuals demonstrate their competencies and access professional opportunities.
 
-- Increased recognition of foreign qualifications.
-- Better employment opportunities for skilled individuals.
-- Reduced barriers caused by missing academic documents.
-- Improved access to skills training.
-- Increased confidence among employers when recruiting candidates.
-- More inclusive education and employment opportunities.
+## 11. Future Enhancements
 
-## 9. Future Development
-
-Future improvements may include:
+Future versions may include:
 
 - AI-assisted document analysis.
-- Digital certificates and verification codes.
-- QR-code-based credential verification.
-- Mobile application integration.
-- Partnerships with universities and employers.
-- Integration with recognized accreditation authorities.
+- QR-code-based digital credential verification.
+- Digital competency certificates.
+- Mobile application development.
+- Integration with educational institutions.
+- Integration with professional licensing authorities.
+- Employer recruitment portal.
+- Multilingual support.
+- Secure online grant payment integration.
 
-## 10. Project Vision
+## 12. Security and Data Protection
 
-To create an inclusive system where every individual has an opportunity to prove their knowledge, demonstrate their skills, receive recognition, and access education and employment regardless of their background or documentation challenges.
-Next step: Building the actual system
-I recommend developing this as a web-based application using:
-- Frontend: HTML, CSS, JavaScript and Bootstrap.
-- Backend: Python (Flask).
-- Database: MySQL using XAMPP.
-- Future enhancement: AI-assisted credential and skills assessment.
-We can build it step by step, just as we did with your Water Bowser Tracking System.
+The platform will implement:
 
-Our first development task should be designing the system's database and user roles.
+- Secure user authentication.
+- Password hashing.
+- Role-based access control.
+- Protection of personal and educational information.
+- Verification officer authorization.
+- Secure handling of funding applications.
+- Audit logs for important verification and funding decisions.
+
+## 13. Project Vision
+
+To create an inclusive digital platform where every individual has the opportunity to prove their knowledge, demonstrate their practical skills, receive recognition, and access education and employment opportunities, regardless of their background or documentation challenges.
+
+---
+
+**VeriPath**
+
+*Your skills are real. Even when papers aren't.*
+
+**Advancing SDG 4 – Quality Education and SDG 8 – Decent Work and Economic Growth.
+VeriPath/
+│
+├── README.md
+├── app.py
+├── config.py
+├── database/
+│   └── veripath.sql
+├── templates/
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── routes/
+├── models/
+└── requirements.txt
