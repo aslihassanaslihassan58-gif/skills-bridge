@@ -1,5 +1,7 @@
 # Credential Recognition & Skills Validation System
 
+live link = https://lovable.dev/preview/Nv5fv59MPnVJfNJ582YmOGWpW4ixpx2j
+
 ## 1. Project Overview
 
 The Credential Recognition & Skills Validation System is a digital platform designed to help individuals verify their educational qualifications, demonstrate their practical skills, and access opportunities for employment and further education.
