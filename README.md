@@ -1,5 +1,5 @@
 
-# VeriPath – Credential Recognition & Skills Validation Platform
+# VeriPath – Credential Recognition & Skills Validation Platform'
  live link  =  https://id-preview--ef81ca09-9435-4e70-be16-c8cfdd3246f5.lovable.app/?__lovable_receipt=mat_237n2q4rta99tvte7g8rmyv18d
 **Verify. Assess. Funding.**
 
